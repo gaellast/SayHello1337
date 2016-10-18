@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SayHello1337_Example' do
+  pod 'SayHello1337', :path => '../'
+
+  target 'SayHello1337_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
